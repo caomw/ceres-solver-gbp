@@ -1,0 +1,25 @@
+Source: ceres-solver
+Priority: extra
+Maintainer: Michael Ferguson <fergs@unboundedrobotics.com>
+Build-Depends: debhelper, cmake, libgoogle-glog-dev, libgflags-dev, libeigen3-dev, libsuitesparse-dev, libprotobuf-dev, protobuf-compiler
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://code.google.com/p/ceres-solver/
+
+Package: libceres
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A non-linear least squares minimizer
+ Ceres Solver is a portable C++ library for solving non-linear least squares 
+ problems accurately and efficiently. For documentation and examples, see
+ http://code.google.com/p/ceres-solver/
+
+Package: libceres-dev
+Section: libdevel
+Architecture: any
+Depends: libceres (= ${binary:Version}), ${misc:Depends}, libgoogle-glog-dev, libeigen3-dev
+Description: A non-linear least squares minimizer
+ Ceres Solver is a portable C++ library for solving non-linear least squares 
+ problems accurately and efficiently. For documentation and examples, see
+ http://code.google.com/p/ceres-solver/
