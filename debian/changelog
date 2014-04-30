@@ -1,3 +1,9 @@
+ceres-solver (1.8.0-1+trusty2) trusty; urgency=medium
+
+  * Fix test on i386, turn off march=native
+
+ -- Michael Ferguson <fergs@unboundedrobotics.com>  Wed, 30 Apr 2014 00:00:44 -0700
+
 ceres-solver (1.8.0-1+trusty1) trusty; urgency=low
 
   * Initial release

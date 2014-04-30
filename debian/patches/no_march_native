@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -474,7 +474,7 @@
+     # Linux
+     IF (CMAKE_SYSTEM_NAME MATCHES "Linux")
+       IF (NOT GCC_VERSION VERSION_LESS 4.2)
+-        SET (CERES_CXX_FLAGS "${CERES_CXX_FLAGS} -march=native -mtune=native")
++        #SET (CERES_CXX_FLAGS "${CERES_CXX_FLAGS} -march=native -mtune=native")
+       ENDIF (NOT GCC_VERSION VERSION_LESS 4.2)
+     ENDIF (CMAKE_SYSTEM_NAME MATCHES "Linux")
+     # Mac OS X

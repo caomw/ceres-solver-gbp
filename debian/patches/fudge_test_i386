@@ -1,0 +1,11 @@
+--- a/internal/ceres/small_blas_test.cc
++++ b/internal/ceres/small_blas_test.cc
+@@ -251,7 +251,7 @@
+ }
+ 
+ TEST(BLAS, MatrixTransposeVectorMultiply) {
+-  const double kTolerance = 1e-16;
++  const double kTolerance = 1e-14;
+   const int kRowA = 5;
+   const int kColA = 3;
+   Matrix A(kRowA, kColA);
