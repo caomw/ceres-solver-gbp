@@ -11,7 +11,7 @@ export DH_OPTIONS
 	dh $@ 
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DBUILD_EXAMPLES=OFF -DBUILD_SHARED_LIBS=ON
+	dh_auto_configure -- -DBUILD_EXAMPLES=OFF
 
 #override_dh_compress:
 #	dh_compress -X.cc -X.h

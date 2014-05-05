@@ -1,3 +1,9 @@
+ceres-solver (1.8.0-1+saucy2) saucy; urgency=medium
+
+  * Build only static library on saucy
+
+ -- Michael Ferguson <fergs@unboundedrobotics.com>  Mon, 05 May 2014 13:20:50 -0700
+
 ceres-solver (1.8.0-1+saucy1) saucy; urgency=medium
 
   * Fix test on i386, turn off march=native
