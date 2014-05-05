@@ -1,3 +1,9 @@
+ceres-solver (1.8.0-1+saucy3) saucy; urgency=medium
+
+  * Fix install step
+
+ -- Michael Ferguson <fergs@unboundedrobotics.com>  Mon, 05 May 2014 13:45:42 -0700
+
 ceres-solver (1.8.0-1+saucy2) saucy; urgency=medium
 
   * Build only static library on saucy
