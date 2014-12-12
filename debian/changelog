@@ -1,11 +1,5 @@
-ceres-solver (1.8.0-1+trusty2) trusty; urgency=medium
+ceres-solver (1.8.0-1+utopic1) utopic; urgency=medium
 
-  * Fix test on i386, turn off march=native
+  * Initial release to Utopic
 
- -- Michael Ferguson <fergs@unboundedrobotics.com>  Wed, 30 Apr 2014 00:00:44 -0700
-
-ceres-solver (1.8.0-1+trusty1) trusty; urgency=low
-
-  * Initial release
-
- -- Michael Ferguson <fergs@unboundedrobotics.com>  Tue, 29 Apr 2014 01:11:41 -0700
+ -- Michael Ferguson <mfergs7@gmail.com>  Fri, 12 Dec 2014 13:10:00 -0800
