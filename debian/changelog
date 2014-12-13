@@ -1,5 +1,5 @@
-ceres-solver (1.8.0-1+utopic1) utopic; urgency=medium
+ceres-solver (1.8.0-1+vivid1) vivid; urgency=medium
 
-  * Initial release to Utopic
+  * Initial release to vivid
 
- -- Michael Ferguson <mfergs7@gmail.com>  Fri, 12 Dec 2014 13:10:00 -0800
+ -- Michael Ferguson <mfergs7@gmail.com>  Fri, 12 Dec 2014 18:12:25 -0800
